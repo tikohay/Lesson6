@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Lesson6
-//
-//  Created by Alex Apriamashvili on 29/12/18.
-//  Copyright © 2018 Alex Apriamashvili. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
@@ -15,7 +7,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
+    let rootViewController = ListViewController()
+    let navigationController = UINavigationController(rootViewController: rootViewController)
+    window?.rootViewController = navigationController
+    window?.makeKeyAndVisible()
+    
     return true
   }
 
