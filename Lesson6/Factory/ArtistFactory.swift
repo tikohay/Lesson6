@@ -62,5 +62,3 @@ class ArtistFactory: ArtistFactoryProtocol {
         return artists[index]
     }
 }
-
-
