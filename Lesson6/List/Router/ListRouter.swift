@@ -9,12 +9,12 @@
 import UIKit
 
 final class ListRouter {
-
+    
     weak var view: UIViewController?
 }
 
 extension ListRouter: ListRouterInput {
-
+    
     func goToDetails(artist: Artist) {
         let details = DetailAssembly.assemble(artist: artist)
         view?.navigationController?.pushViewController(details, animated: true)

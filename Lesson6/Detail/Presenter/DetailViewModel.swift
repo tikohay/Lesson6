@@ -1,27 +1,24 @@
 import Foundation
 
 struct DetailViewModel {
-
-  let artistName: String
-
-  let artistAlbums: [Album]
+    
+    let artistName: String
+    let artistAlbums: [Album]
 }
 
 extension DetailViewModel {
+    struct Album {
 
-  struct Album {
-
-    let title: String
-    let songList: [Song]
-    let date: String
-  }
+        let title: String
+        let songList: [Song]
+        let date: String
+    }
 }
 
 extension DetailViewModel.Album {
-
-  struct Song {
-
-    let name: String
-    let duration: String
-  }
+    struct Song {
+        
+        let name: String
+        let duration: String
+    }
 }
