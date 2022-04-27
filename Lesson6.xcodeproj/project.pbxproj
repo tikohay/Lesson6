@@ -23,6 +23,20 @@
 		58CE26B221D76D9400BCE908 /* DetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CE26B121D76D9400BCE908 /* DetailPresenterTests.swift */; };
 		B0CE1290242FA55A00211275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CE267421D73D4400BCE908 /* AppDelegate.swift */; };
 		B0CE1291242FA65F00211275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CE267821D73D4400BCE908 /* Main.storyboard */; };
+		E8393B522819652200226A33 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B512819652200226A33 /* NetworkService.swift */; };
+		E8393B542819682300226A33 /* ListModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B532819682300226A33 /* ListModule.swift */; };
+		E8393B572819686200226A33 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B562819686200226A33 /* ListPresenter.swift */; };
+		E8393B5A281968EF00226A33 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B59281968EF00226A33 /* ListInteractor.swift */; };
+		E8393B5D2819691500226A33 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B5C2819691500226A33 /* ListRouter.swift */; };
+		E8393B6028196B3500226A33 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B5F28196B3500226A33 /* Artist.swift */; };
+		E8393B6228196B4500226A33 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B6128196B4500226A33 /* Album.swift */; };
+		E8393B6428196B5400226A33 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B6328196B5400226A33 /* Song.swift */; };
+		E8393B6628196CC600226A33 /* ArtistFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B6528196CC600226A33 /* ArtistFactory.swift */; };
+		E8393B692819778F00226A33 /* ListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B682819778F00226A33 /* ListAssembly.swift */; };
+		E8393B6B2819975300226A33 /* ListAssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B6A2819975300226A33 /* ListAssemblyTests.swift */; };
+		E8393B6F28199A4E00226A33 /* ListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B6E28199A4E00226A33 /* ListPresenterTests.swift */; };
+		E8393B712819A26000226A33 /* ListMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B702819A26000226A33 /* ListMocks.swift */; };
+		E8393B732819C57D00226A33 /* DetailMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393B722819C57D00226A33 /* DetailMocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +70,20 @@
 		58CE26AD21D7683C00BCE908 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		58CE26AF21D76BAA00BCE908 /* DeatailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeatailTests.swift; sourceTree = "<group>"; };
 		58CE26B121D76D9400BCE908 /* DetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenterTests.swift; sourceTree = "<group>"; };
+		E8393B512819652200226A33 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E8393B532819682300226A33 /* ListModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModule.swift; sourceTree = "<group>"; };
+		E8393B562819686200226A33 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		E8393B59281968EF00226A33 /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		E8393B5C2819691500226A33 /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		E8393B5F28196B3500226A33 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		E8393B6128196B4500226A33 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		E8393B6328196B5400226A33 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		E8393B6528196CC600226A33 /* ArtistFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistFactory.swift; sourceTree = "<group>"; };
+		E8393B682819778F00226A33 /* ListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAssembly.swift; sourceTree = "<group>"; };
+		E8393B6A2819975300226A33 /* ListAssemblyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAssemblyTests.swift; sourceTree = "<group>"; };
+		E8393B6E28199A4E00226A33 /* ListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenterTests.swift; sourceTree = "<group>"; };
+		E8393B702819A26000226A33 /* ListMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMocks.swift; sourceTree = "<group>"; };
+		E8393B722819C57D00226A33 /* DetailMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMocks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				58CE267421D73D4400BCE908 /* AppDelegate.swift */,
+				E8393B6728196CDF00226A33 /* Factory */,
+				E8393B50281964C500226A33 /* ServiceLayer */,
+				E8393B5E28196AEE00226A33 /* Model */,
 				58CE269521D73F9000BCE908 /* Detail */,
 				58CE269421D73F9000BCE908 /* List */,
 				58CE269621D73FB700BCE908 /* Resources */,
@@ -108,8 +139,8 @@
 		58CE268821D73D4500BCE908 /* Lesson6Tests */ = {
 			isa = PBXGroup;
 			children = (
-				58CE26AF21D76BAA00BCE908 /* DeatailTests.swift */,
-				58CE26B121D76D9400BCE908 /* DetailPresenterTests.swift */,
+				E8393B6C281999B700226A33 /* DetailsTest */,
+				E8393B6D281999BF00226A33 /* ListTest */,
 				58CE268B21D73D4500BCE908 /* Info.plist */,
 			);
 			path = Lesson6Tests;
@@ -118,6 +149,11 @@
 		58CE269421D73F9000BCE908 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				E8393B532819682300226A33 /* ListModule.swift */,
+				E8393B682819778F00226A33 /* ListAssembly.swift */,
+				E8393B5B2819690B00226A33 /* Router */,
+				E8393B58281968DA00226A33 /* Interactor */,
+				E8393B552819685200226A33 /* Presenter */,
 				58CE267621D73D4400BCE908 /* ListViewController.swift */,
 			);
 			path = List;
@@ -182,6 +218,76 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		E8393B50281964C500226A33 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E8393B512819652200226A33 /* NetworkService.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		E8393B552819685200226A33 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E8393B562819686200226A33 /* ListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E8393B58281968DA00226A33 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E8393B59281968EF00226A33 /* ListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E8393B5B2819690B00226A33 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E8393B5C2819691500226A33 /* ListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E8393B5E28196AEE00226A33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8393B5F28196B3500226A33 /* Artist.swift */,
+				E8393B6128196B4500226A33 /* Album.swift */,
+				E8393B6328196B5400226A33 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8393B6728196CDF00226A33 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				E8393B6528196CC600226A33 /* ArtistFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		E8393B6C281999B700226A33 /* DetailsTest */ = {
+			isa = PBXGroup;
+			children = (
+				58CE26AF21D76BAA00BCE908 /* DeatailTests.swift */,
+				58CE26B121D76D9400BCE908 /* DetailPresenterTests.swift */,
+				E8393B722819C57D00226A33 /* DetailMocks.swift */,
+			);
+			path = DetailsTest;
+			sourceTree = "<group>";
+		};
+		E8393B6D281999BF00226A33 /* ListTest */ = {
+			isa = PBXGroup;
+			children = (
+				E8393B6A2819975300226A33 /* ListAssemblyTests.swift */,
+				E8393B6E28199A4E00226A33 /* ListPresenterTests.swift */,
+				E8393B702819A26000226A33 /* ListMocks.swift */,
+			);
+			path = ListTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,7 +333,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Alex Apriamashvili";
 				TargetAttributes = {
 					58CE267021D73D4400BCE908 = {
@@ -283,16 +389,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8393B5A281968EF00226A33 /* ListInteractor.swift in Sources */,
+				E8393B572819686200226A33 /* ListPresenter.swift in Sources */,
 				B0CE1290242FA55A00211275 /* AppDelegate.swift in Sources */,
 				58CE267721D73D4400BCE908 /* ListViewController.swift in Sources */,
+				E8393B6628196CC600226A33 /* ArtistFactory.swift in Sources */,
 				58CE26A821D752F000BCE908 /* DetailRouter.swift in Sources */,
+				E8393B6228196B4500226A33 /* Album.swift in Sources */,
 				58CE26A221D752CE00BCE908 /* DetailViewController.swift in Sources */,
+				E8393B542819682300226A33 /* ListModule.swift in Sources */,
 				58CE26AA21D7570300BCE908 /* DetailViewModel.swift in Sources */,
+				E8393B5D2819691500226A33 /* ListRouter.swift in Sources */,
 				58CE269C21D751D300BCE908 /* DetailAssembly.swift in Sources */,
 				58CE26A621D752E600BCE908 /* DetailInteractor.swift in Sources */,
 				58CE26AE21D7683C00BCE908 /* HeaderView.swift in Sources */,
 				58CE269A21D750FA00BCE908 /* DetailModule.swift in Sources */,
+				E8393B6428196B5400226A33 /* Song.swift in Sources */,
 				58CE26AC21D75C9A00BCE908 /* SongCell.swift in Sources */,
+				E8393B692819778F00226A33 /* ListAssembly.swift in Sources */,
+				E8393B6028196B3500226A33 /* Artist.swift in Sources */,
+				E8393B522819652200226A33 /* NetworkService.swift in Sources */,
 				58CE26A421D752D900BCE908 /* DetailPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +419,10 @@
 			files = (
 				58CE26B221D76D9400BCE908 /* DetailPresenterTests.swift in Sources */,
 				58CE26B021D76BAA00BCE908 /* DeatailTests.swift in Sources */,
+				E8393B6F28199A4E00226A33 /* ListPresenterTests.swift in Sources */,
+				E8393B6B2819975300226A33 /* ListAssemblyTests.swift in Sources */,
+				E8393B732819C57D00226A33 /* DetailMocks.swift in Sources */,
+				E8393B712819A26000226A33 /* ListMocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +482,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -423,6 +544,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
